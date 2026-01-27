@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f3f6fb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pet-card {
+  background: linear-gradient(135deg, #e0f2fe, #fdf2f8);
+  border-radius: 16px;
+  width: 260px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.pet-card:hover {
+  transform: translateY(-4px);
+}
+
+.pet-card h2 {
+  margin-top: 0;
+  color: #111827;
+}
+
+/* LIGHT DETAILS BAR */
+.pet-details {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin: 10px 0;
+}
+
+.pet-details p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* DELETE BUTTON (LIGHT) */
+.btn-delete {
+  background: #fde2e2;
+  border: none;
+  color: #7f1d1d;
+  padding: 8px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-delete:hover {
+  background: #fecaca;
+}
+
+/* FORM */
+.form {
+  background: #ffffff;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.btn-submit {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #1d4ed8;
+}
